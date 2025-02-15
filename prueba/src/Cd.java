@@ -15,7 +15,7 @@ public class Cd extends Almacenamiento {
 			if (estaEscrito == false) {	
 				System.out.println("Escribiendo disco...");
 				Thread.sleep(getVelEscritura());
-				estaEscrito = true;
+				setEstaEscrito(true);
 			} else {
 				System.out.println("Este disco ya esta escrito");
 			}
