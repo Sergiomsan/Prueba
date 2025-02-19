@@ -1,5 +1,5 @@
 
-public class DiscoDuro extends Cd {
+public class DiscoDuro extends Almacenamiento {
 
 	public DiscoDuro(String marca, String modelo, String almacenamiento, int velLectura, int velEscritura,
 			String tipoDisco, String tipoConectividad) {

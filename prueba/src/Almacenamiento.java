@@ -7,9 +7,7 @@ abstract class Almacenamiento {
 	private int velLectura;
 	private int velEscritura;
 	private String tipoDisco;
-	private String tipoConectividad;
-	
-	
+	private String tipoConectividad;	
 	
 	public Almacenamiento(String marca, String modelo, String almacenamiento, int velLectura, int velEscritura,
 			String tipoDisco, String tipoConectividad) {
